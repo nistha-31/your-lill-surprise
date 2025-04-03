@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.envelope-section {
+    padding: 50px;
+}
+
+.envelope {
+    font-size: 24px;
+    background: #ff4081;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.heart {
+    position: absolute;
+    font-size: 24px;
+    color: red;
+    animation: floatUp 3s linear infinite;
+}
+
+@keyframes floatUp {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-100vh); opacity: 0; }
+}
+.photos {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+.photo {
+    width: 200px;
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 10px;
+}
+.songs {
+    margin: 30px 0;
+    padding: 20px;
+    background: #fff5f8;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.songs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.songs li {
+    margin: 10px 0;
+}
+
+.songs a {
+    text-decoration: none;
+    color: #ff4081;
+    font-weight: bold;
+}
+
+.songs a:hover {
+    text-decoration: underline;
+}
+
+/* Love Letter */
+.love-letter {
+    margin: 30px 0;
+    padding: 20px;
+    background: #fff5f8;
+    border-radius: 10px;
+}
+
+#letterBox {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Love Question */
+.love-question {
+    margin-top: 50px;
+}
+
+button {
+    background: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background: #d81b60;
+}
